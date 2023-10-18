@@ -5,7 +5,7 @@ function BackgroundIdea({ orientarion, imageLink, problem, title, desc }) {
     if (orientarion == 'left') {
         return <div className="flex z-50">
             <div className="text-white w-5/12">
-                <div className={`bg-[url('${imageLink}')] w-full h-[300px] rounded-xl`} />
+                <img src={imageLink} className={`w-full h-[300px] rounded-xl`} />
                 <h3 className='font-bold text-xl my-4'>{problem}</h3>
                 <p className='w-4/5 font-semibold text-3xl'>{title}</p>
             </div>
@@ -30,7 +30,7 @@ function BackgroundIdea({ orientarion, imageLink, problem, title, desc }) {
             </div>
             <div className="text-white w-5/12 py-24 pl-16">
                 <div className="text-right">
-                    <div className={`bg-[url('${imageLink}')] w-full h-[300px] rounded-xl`} />
+                    <img src={imageLink} className={`w-full h-[300px] rounded-xl`} />
                     <h3 className='font-bold text-xl my-4'>{problem}</h3>
                     <div className="flex justify-end">
                         <p className='w-4/5 font-semibold text-3xl'>{title}</p>
