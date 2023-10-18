@@ -27,7 +27,7 @@ function App() {
         </Jumbotron>
       </header>
 
-      <marquee className='text-white opacity-50 font-extrabold text-4xl mt-32 mb-10'>
+      <marquee className='text-white opacity-50 font-extrabold text-4xl mt-32'>
         <div className="flex gap-16">
           <img src="/assets/sponsors/1.png" alt="" className='h-5' />
           <img src="/assets/sponsors/2.png" alt="" className='h-5' />
@@ -40,9 +40,9 @@ function App() {
         </div>
       </marquee>
 
-      <main >
-        <section className='py-24'>
-          <img src={FirstSectionBg} className='absolute w-full -z-50' alt="" />
+      <main>
+        <section className='py-12'>
+          <img src={FirstSectionBg} className='absolute w-full -z-50 h-full' alt="" />
           <div className="grid grid-cols-2 gap-10 items-center px-16">
             <h3 className='text-white text-[40px]'>Join the tech community conversation! We are here to help you make your dreams come true.</h3>
             <h3 className='text-right text-white text-lg'>
